@@ -1,0 +1,7 @@
+name: DevBridge
+version: '${project.version}'
+main: qtv.devbridge.DevBridge
+commands:
+  devbridge:
+    description: DevBridge plugin command
+    permission: devbridge.use
